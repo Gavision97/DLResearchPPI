@@ -1,0 +1,1 @@
+Number of rows with all zero vector embeddings: 0
