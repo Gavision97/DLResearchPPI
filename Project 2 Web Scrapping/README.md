@@ -1,5 +1,7 @@
 # DLiP Web Scraping Project
 
+https://github.com/Gavision97/DeepLearningResearchStarship/blob/master/Project%202%20Web%20Scrapping/Images/beautifulsoup_logo.jpg 
+
 ## Overview
 
 This project focuses on web scraping techniques using Python libraries such as Selenium and BeautifulSoup to extract and manipulate data from the DLiP (Database of Chemical Library for Protein-Protein Interaction) website.
