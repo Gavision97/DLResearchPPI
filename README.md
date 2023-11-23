@@ -24,3 +24,13 @@ The first project in this repository focuses on generating protein embeddings. T
 - Source: https://version-11-0.string-db.org/cgi/input.pl?sessionId=QYgviJu8Rtdl&input_page_show_search=on
 - Version: 11.0
 - Species: Homo sapiens
+
+## Project 2: Web Scraping
+
+#### Overview
+
+Automated web scraping project using Python, Selenium, and BeautifulSoup to extract and structure Protein-Protein Interaction (PPI) tables from the DLiP website. The goal is to prepare data for deep learning research, producing a CSV file for convenient analysis.
+
+#### Dataset Information
+
+- Source: https://skb-insilico.com/dlip
