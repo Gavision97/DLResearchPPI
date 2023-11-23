@@ -1,6 +1,8 @@
 # DLiP Web Scraping Project
 
-https://github.com/Gavision97/DeepLearningResearchStarship/blob/master/Project%202%20Web%20Scrapping/Images/beautifulsoup_logo.jpg 
+![beautifulsoup_logo](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/fbeed151-2350-4946-aefe-e8b957195180)
+
+![selenium_logo](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/6b95773a-d480-4f12-a0b8-d294ed433732)
 
 ## Overview
 
