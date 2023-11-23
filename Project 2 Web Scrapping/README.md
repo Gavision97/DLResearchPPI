@@ -1,8 +1,8 @@
 # DLiP Web Scraping Project
 
-![beautifulsoup_logo](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/fbeed151-2350-4946-aefe-e8b957195180)
+![beautifulsoup_logo_r](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/24628e07-f94d-420e-8dd0-e2c09bb83035)
+![selenium_logo_r](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/249c53f2-c97d-4d25-a136-b9309296dd6b)
 
-![selenium_logo](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/6b95773a-d480-4f12-a0b8-d294ed433732)
 
 ## Overview
 
