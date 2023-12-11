@@ -1,0 +1,5 @@
+Smiles
+O=C(NC[C@H](NS(=O)(=O)c1c(Cl)cccc1Cl)C(=O)O)c1ccc2c(cnn2CCCNc2ncc[nH]2)c1
+Cc1cc(C)c(S(=O)(=O)N[C@@H](CNC(=O)c2ccc3c(cnn3CCCNc3ncc[nH]3)c2)C(=O)O)c(C)c1
+Cc1cc(C)c(C(=O)N[C@@H](CNC(=O)CO[C@@H]2C[C@@H](CNc3ccccn3)N(C(=O)OCc3ccccc3)C2)C(=O)O)c(C)c1
+Cc1cc(C)c(S(=O)(=O)N[C@@H](CNC(=O)CO[C@@H]2C[C@@H](CNc3ccccn3)N(C(=O)OCc3ccccc3)C2)C(=O)O)c(C)c1
