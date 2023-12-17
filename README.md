@@ -34,3 +34,16 @@ Automated web scraping project using Python, Selenium, and BeautifulSoup to extr
 #### Dataset Information
 
 - Source: https://skb-insilico.com/dlip
+
+## Project 3: Data Analysis + Web Scraping
+
+#### Overview
+
+The project aims to analyze data from the previous project, which encountered issues with the 'Target Pref. Name' column. The values 'Integrins' and 'BCL2_Like-BAX' in that column were duplicated for different molecules. The current project focuses on addressing this by extracting additional data from the chEMBL database. For molecules with 'Integrins' in the 'Target Pref. Name' column, we aim to acquire more informative values. Meanwhile, for 'BCL-Like_BAX,' we will employ an alternative technique due to challenges with chEMBL data.
+
+Our goal is to enhance the robustness and generalization of 'Target Pref. Name' values, ultimately improving our deep learning model.
+
+#### Dataset Information
+
+- Source: https://www.ebi.ac.uk/chembl/
+- GitHub Repository: (for informative BCL2-Like_BAX extraction) : https://github.com/sun-heqi/MultiPPIMI
