@@ -1,5 +1,13 @@
 # Project 3 Data Analysis and Web Scraping #
 
+In Project 3, I employed various data analysis tools and web scraping techniques to enhance our dataset.
+Utilizing libraries such as pandas facilitated efficient data manipulation, while employing Selenium and BeautifulSoup enabled effective web scraping. These tools played a crucial role in handling challenges related to 'Target Pref. Name' values, ensuring data accuracy, and enhancing the overall quality of our deep learning model.
+
+Main Libraries :
+- Pandas
+- Selenium & BeautifulSoup 
+
+
 ## Sub Project 3.1 - Integrins ## 
 
 The initial dataset from Project 2 revealed challenges with the `Target Pref. Name = Integrins`, including non-unique names and ungeneralized data. 
