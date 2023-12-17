@@ -10,6 +10,9 @@ Main Libraries :
 
 ## Sub Project 3.1 - Integrins ## 
 
+![Integrin Alpha-1_protein png](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/fe39516d-e706-43ea-9c0f-bb9a1c997dd9)
+(Image of Integring Alpha-1 protein, mamber of Integrin protein family)
+
 The initial dataset from Project 2 revealed challenges with the `Target Pref. Name = Integrins`, including non-unique names and ungeneralized data. 
 
 To address this, we utilize the *chEMBL* database to search for `Integrins` and acquire more informative and unique names for our molecules. The strategy involves extracting data for molecules with `Target Pref. Name = Integrins` falling under categories such as *PROTEIN COMPLEX*, *PROTEIN COMPLEX GROUP*, *PROTEIN-PROTEIN INTERACTION*, and *SELECTIVITY GROUP*. 
@@ -19,6 +22,9 @@ We then replace the old `Target Pref. Name` values in our data frame with the mo
 - Source : https://www.ebi.ac.uk/chembl/
 
 ## Sub Project 3.2 - BCL2-Like_BAX ##
+
+![BAX_protein](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/c053f821-b4a8-483d-9596-340149235ce2)
+(Image of BAX protein, member of BCL-2 protein family)
 
 The second part of the third project is similar to the first part. 
 
