@@ -22,7 +22,7 @@ The first project in this repository focuses on generating protein embeddings. T
 #### Dataset Information
 
 - Source: https://version-11-0.string-db.org/cgi/input.pl?sessionId=QYgviJu8Rtdl&input_page_show_search=on
-- Version: 11.0
+- Version: 11.0 & 12.0
 - Species: Homo sapiens
 
 ## Project 2: Web Scraping
