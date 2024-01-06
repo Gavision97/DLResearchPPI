@@ -1,7 +1,6 @@
 # Starship Program Repository
 
 ![starship_logo](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/0f44d046-43fd-4bdb-bd7c-00c52f87c9fa)
-
 ![protein_img](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/40cb08f3-df87-49d3-9867-40a7871ea62b)
 
 
