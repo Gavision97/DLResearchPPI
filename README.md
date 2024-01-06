@@ -2,6 +2,9 @@
 
 ![starship_logo](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/0f44d046-43fd-4bdb-bd7c-00c52f87c9fa)
 
+![protein_img](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/d8174e67-974d-4bc1-bbcc-ce04f134e679)
+
+
 
 Welcome to the Starship Program repository, a part of my journey at Ben Gurion University during my B.A. degree in Software and Information Systems Engineering. This repository is dedicated to my collaboration in a research project focused on Deep Learning within the field of Protein-Protein Interaction (PPI) in medicine, as part of a master's (Ph.D.) research program.
 
