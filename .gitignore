@@ -3,3 +3,6 @@
 
 # Ignore all TSV files
 *.tsv
+
+# Ignore all pptx files
+*.pptx
