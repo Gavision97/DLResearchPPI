@@ -4,5 +4,8 @@
 # Ignore all TSV files
 *.tsv
 
-# Ignore all pptx files
+# Ignore all pptx, docx and jupyterlab checkpoints files
 *.pptx
+*.docx
+*.ipynb_checkpoints
+*.virtual_documents

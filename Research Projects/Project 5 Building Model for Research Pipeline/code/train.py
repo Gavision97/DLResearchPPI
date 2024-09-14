@@ -4,14 +4,37 @@ import warnings
 import sys
 import logging
 
-from ResearchModels import *
-from ResearchHelpers import *
-from MoleculeDatasets import *
-
 logging.basicConfig(filename='output.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logging.info("Initialized log file successfully ...")
 logging.info("...")
+
+warnings.filterwarnings('ignore')
+
+from ResearchModels import *
+from ResearchHelpers import *
+from MoleculeDatasets import *
+
+import chemprop
+from chemprop import data, featurizers, models
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import Dataset, DataLoader
+
+logging.info("...")
+from transformers import RobertaTokenizer, RobertaModel
+
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split, KFold
+from sklearn.metrics import roc_auc_score
+
+from rdkit import Chem
+from rdkit.Chem import AllChem, Descriptors, Draw
+from rdkit.Chem.rdMolDescriptors import GetMorganFingerprintAsBitVect
+
 
 def run_script():
     device = check_device()
