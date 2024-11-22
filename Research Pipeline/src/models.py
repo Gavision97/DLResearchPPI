@@ -1,12 +1,6 @@
+from imports import *
 
-
-import os
-import time
-import warnings
-warnings.filterwarnings('ignore')
-
-import chemprop
-from chemprop import data, featurizers, models
+## Helpers (e.g., pre-trained chemprop & chemBERTa for fine-tune tasks...
 
 class PretrainedChempropModel(nn.Module):
     def __init__(self, checkpoints_path, batch_size):
@@ -19,7 +13,7 @@ class PretrainedChempropModel(nn.Module):
         # Prepare the data in order to generate embeddings from modulators SMILES
         self.smiles_data = [data.MoleculeDatapoint.from_smi(smi) for smi in smiles]
         self.smiles_dset = data.MoleculeDataset(self.smiles_data, featurizer=self.featurizer)
-        self.smiles_loader = data.build_dataloader(self.smiles_dset, batch_size=batch_size, shuffle=False)
+        self.smiles_loader = data.build_dataloader(self.smiles_dset, batch_size=self.batch_size, shuffle=False)
         
         embeddings = [
             # Etract the embedding from the last FFN layer, i.e., before the final prediction(thus i=-1)
@@ -44,4 +38,12 @@ class PretrainedChempropModel(nn.Module):
         mpnn = models.MPNN.load_from_checkpoint(checkpoints_path).to(device)
         return mpnn
 
+class ChemBERTaPT(nn.Module):
+    def __init__(self):
+        super(ChemBERTaPT, self).__init__()
+        self.model_name = "DeepChem/ChemBERTa-77M-MTR"
+        self.chemberta = RobertaModel.from_pretrained(self.model_name)
 
+    def forward(self, input_ids, attention_mask):
+        bert_output = self.chemberta(input_ids=input_ids, attention_mask=attention_mask)
+        return bert_output[1]
