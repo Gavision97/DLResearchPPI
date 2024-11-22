@@ -1,0 +1,102 @@
+feature name,feature length,feature_file,Api_name,list_of_columns,feature type
+FEGS,578,FEGS.csv,FEGS,1-578,sequence
+AAC_type1,180,mean_structure_features.csv,iFeatureOmega,1-180,structure
+AAC_type2,180,mean_structure_features.csv,iFeatureOmega,181-360,structure
+GAAC_type1,45,mean_structure_features.csv,iFeatureOmega,361-405,structure
+GAAC_type2,45,mean_structure_features.csv,iFeatureOmega,406-450,structure
+SS3_type1,45,mean_structure_features.csv,iFeatureOmega,451-495,structure
+SS3_type2,45,mean_structure_features.csv,iFeatureOmega,496-540,structure
+SS8_type1,45,mean_structure_features.csv,iFeatureOmega,541-585,structure
+SS8_type2,45,mean_structure_features.csv,iFeatureOmega,586-630,structure
+HSE_CA,3,mean_structure_features.csv,iFeatureOmega,631-633,structure
+HSE_CB,3,mean_structure_features.csv,iFeatureOmega,634-636,structure
+AC_type1,40,mean_structure_features.csv,iFeatureOmega,637-676,structure
+AC_type2,40,mean_structure_features.csv,iFeatureOmega,677-716,structure
+Network-based index,6,mean_structure_features.csv,iFeatureOmega,717-722,structure
+length,1,custom_sequence_features.csv,protlearn,1-1,sequence
+aac,20,custom_sequence_features.csv,protlearn,2-21,sequence
+aaindex1,553,custom_sequence_features.csv,protlearn,22-574,sequence
+ngram,400,custom_sequence_features.csv,protlearn,575-974,sequence
+entropy,1,custom_sequence_features.csv,protlearn,975-975,sequence
+atc,8,custom_sequence_features.csv,protlearn,976-983,sequence
+cksaap,400,custom_sequence_features.csv,protlearn,984-1383,sequence
+ctd,343,custom_sequence_features.csv,protlearn,1384-1726,sequence
+ctdc,39,custom_sequence_features.csv,protlearn,1727-1765,sequence
+ctdt,39,custom_sequence_features.csv,protlearn,1766-1804,sequence
+ctdd,195,custom_sequence_features.csv,protlearn,1805-1999,sequence
+GearyAutoTotal,240,custom_sequence_features.csv,propy,2000-2239,sequence
+NormalizedMoreauBrotoAutoTotal,240,custom_sequence_features.csv,propy,2240-2479,sequence
+MoranAutoTotal,240,custom_sequence_features.csv,propy,2480-2719,sequence
+aliphatic_index,1,custom_sequence_features.csv,peptides,2720-2720,sequence
+auto_correlation,45,custom_sequence_features.csv,peptides,2721-2765,sequence
+auto_covariance,45,custom_sequence_features.csv,peptides,2776-2810,sequence
+blosum_indices,10,custom_sequence_features.csv,peptides,2811-2820,sequence
+boman,1,custom_sequence_features.csv,peptides,2821-2821,sequence
+charge,9,custom_sequence_features.csv,peptides,2822-2830,sequence
+counts,26,custom_sequence_features.csv,peptides,2831-2856,sequence
+cruciani_properties,3,custom_sequence_features.csv,peptides,2857-2859,sequence
+descriptors,88,custom_sequence_features.csv,peptides,2860-2947,sequence
+hydrophobic_moment,2,custom_sequence_features.csv,peptides,2948-2949,sequence
+hydrophobicity,45,custom_sequence_features.csv,peptides,2950-2994,sequence
+instability_index,1,custom_sequence_features.csv,peptides,2995-2995,sequence
+isoelectric_point,9,custom_sequence_features.csv,peptides,2996-3004,sequence
+mass_shift,3,custom_sequence_features.csv,peptides,3005-3007,sequence
+molecular_weight,3,custom_sequence_features.csv,peptides,3008-3010,sequence
+mz,1,custom_sequence_features.csv,peptides,3011-3011,sequence
+EAAC,1,custom_sequence_features.csv,iFeatureOmega,3012-3012,sequence
+CTriad,343,custom_sequence_features.csv,iFeatureOmega,3013 - 3355,sequence
+ASDC,400,custom_sequence_features.csv,iFeatureOmega,3356 - 3755,sequence
+DistancePair,20,custom_sequence_features.csv,iFeatureOmega,3756 - 3775,sequence
+GAAC,5,custom_sequence_features.csv,iFeatureOmega,3776 - 3780,sequence
+EGAAC,1,custom_sequence_features.csv,iFeatureOmega,3781 - 3781,sequence
+CKSAAGP type 1,100,custom_sequence_features.csv,iFeatureOmega,3782 - 3881,sequence
+CKSAAGP type 2,100,custom_sequence_features.csv,iFeatureOmega,3882 - 3981,sequence
+GDPC type 1,25,custom_sequence_features.csv,iFeatureOmega,3982 - 4006,sequence
+GDPC type 2,25,custom_sequence_features.csv,iFeatureOmega,4007 - 4031,sequence
+GTPC type 1,125,custom_sequence_features.csv,iFeatureOmega,4032 - 4156,sequence
+GTPC type 2,125,custom_sequence_features.csv,iFeatureOmega,4157 - 4281,sequence
+Moran,24,custom_sequence_features.csv,iFeatureOmega,4282 - 4305,sequence
+Geary,24,custom_sequence_features.csv,iFeatureOmega,4306 - 4329,sequence
+NMBroto,24,custom_sequence_features.csv,iFeatureOmega,4330 - 4454,sequence
+SOCNumber,6,custom_sequence_features.csv,iFeatureOmega,4354 - 4359,sequence
+QSOrder,46,custom_sequence_features.csv,iFeatureOmega,4360 - 4405,sequence
+PAAC,23,custom_sequence_features.csv,iFeatureOmega,4406 - 4428,sequence
+APAAC,26,custom_sequence_features.csv,iFeatureOmega,4429 - 4454,sequence
+PseKRAAC type 1,4,custom_sequence_features.csv,iFeatureOmega,4455 - 4458,sequence
+PseKRAAC type 2,4,custom_sequence_features.csv,iFeatureOmega,4459 - 4462,sequence
+PseKRAAC type 3A,4,custom_sequence_features.csv,iFeatureOmega,4463 - 4466,sequence
+PseKRAAC type 3B,4,custom_sequence_features.csv,iFeatureOmega,4467 - 4470,sequence
+PseKRAAC type 4,25,custom_sequence_features.csv,iFeatureOmega,4471 - 4495,sequence
+PseKRAAC type 5,9,custom_sequence_features.csv,iFeatureOmega,4496 - 4504,sequence
+PseKRAAC type 6A,16,custom_sequence_features.csv,iFeatureOmega,4505 - 4520,sequence
+PseKRAAC type 6B,25,custom_sequence_features.csv,iFeatureOmega,4521 - 4545,sequence
+PseKRAAC type 6C,25,custom_sequence_features.csv,iFeatureOmega,4546 - 4570,sequence
+PseKRAAC type 7,4,custom_sequence_features.csv,iFeatureOmega,4571 - 4574,sequence
+PseKRAAC type 8,4,custom_sequence_features.csv,iFeatureOmega,4575 - 4578,sequence
+PseKRAAC type 9,4,custom_sequence_features.csv,iFeatureOmega,4579 - 4582,sequence
+PseKRAAC type 10,4,custom_sequence_features.csv,iFeatureOmega,4583 - 4586,sequence
+PseKRAAC type 11,4,custom_sequence_features.csv,iFeatureOmega,4587 - 4590,sequence
+PseKRAAC type 12,4,custom_sequence_features.csv,iFeatureOmega,4591 - 4594,sequence
+PseKRAAC type 13,4,custom_sequence_features.csv,iFeatureOmega,4595 - 4610,sequence
+PseKRAAC type 14,4,custom_sequence_features.csv,iFeatureOmega,4611 - 4614,sequence
+PseKRAAC type 15,4,custom_sequence_features.csv,iFeatureOmega,4615 - 4618,sequence
+PseKRAAC type 16,4,custom_sequence_features.csv,iFeatureOmega,4619 - 4622,sequence
+binary,1,custom_sequence_features.csv,iFeatureOmega,4623 - 4623,sequence
+binary_6bit,1,custom_sequence_features.csv,iFeatureOmega,4624 - 4624,sequence
+binary_5bit type 1,1,custom_sequence_features.csv,iFeatureOmega,4625 - 4625,sequence
+binary_5bit type 2,1,custom_sequence_features.csv,iFeatureOmega,4626 - 4626,sequence
+binary_3bit type 1,1,custom_sequence_features.csv,iFeatureOmega,4627 - 4627,sequence
+binary_3bit type 2,1,custom_sequence_features.csv,iFeatureOmega,4628 - 4628,sequence
+binary_3bit type 3,1,custom_sequence_features.csv,iFeatureOmega,4629 - 4629,sequence
+binary_3bit type 4,1,custom_sequence_features.csv,iFeatureOmega,4630 - 4630,sequence
+binary_3bit type 5,1,custom_sequence_features.csv,iFeatureOmega,4631 - 4631,sequence
+binary_3bit type 6,1,custom_sequence_features.csv,iFeatureOmega,4632 - 4632,sequence
+binary_3bit type 7,1,custom_sequence_features.csv,iFeatureOmega,4633 - 4633,sequence
+AESNN3,3,custom_sequence_features.csv,iFeatureOmega,4634 - 4636,sequence
+OPF_10bit,10,custom_sequence_features.csv,iFeatureOmega,4637 - 4646,sequence
+OPF_7bit type 1,7,custom_sequence_features.csv,iFeatureOmega,4647 - 4653,sequence
+OPF_7bit type 2,7,custom_sequence_features.csv,iFeatureOmega,4654 - 4660,sequence
+OPF_7bit type 1,7,custom_sequence_features.csv,iFeatureOmega,4661 - 4667,sequence
+AAIndex,8,custom_sequence_features.csv,iFeatureOmega,4668 - 4675,sequence
+BLOSUM62,20,custom_sequence_features.csv,iFeatureOmega,4676 - 4695,sequence
+ZScale,5,custom_sequence_features.csv,iFeatureOmega,4696 - 4700,sequence

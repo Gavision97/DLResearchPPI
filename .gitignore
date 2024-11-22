@@ -1,12 +1,8 @@
-# Ignore all CSV files
-*.csv
-*.xlsx
-
-# Ignore all TSV files
-*.tsv
-
 # Ignore all pptx, docx and jupyterlab checkpoints files
 *.pptx
 *.docx
 *.ipynb_checkpoints
 *.virtual_documents
+
+# Ignore all logs
+*.log
