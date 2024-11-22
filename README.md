@@ -1,5 +1,4 @@
 # Predicting Protein-Protein Interactions Modulators For Drug Discovery
 
-
-![protein_img](https://github.com/Gavision97/DeepLearningResearchStarship/assets/150701079/40cb08f3-df87-49d3-9867-40a7871ea62b)
+![Project Logo]([images/image.png](https://github.com/Gavision97/DLResearchPPI/blob/master/Research%20Pipeline%20Diagrams/Research_pipeline_version_2.jpg))
 
